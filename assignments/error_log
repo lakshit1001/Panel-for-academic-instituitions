@@ -1,0 +1,6 @@
+[11-Jul-2015 02:58:31 America/New_York] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/bookfoxi/public_html/brinjal.me/malhotra/panel/student/index.php on line 33
+[11-Jul-2015 02:58:31 America/New_York] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/bookfoxi/public_html/brinjal.me/malhotra/panel/student/index.php on line 33
+[11-Jul-2015 02:58:32 America/New_York] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bookfoxi/public_html/brinjal.me/malhotra/panel/student/index.php on line 33
+[11-Jul-2015 02:58:59 America/New_York] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/bookfoxi/public_html/brinjal.me/malhotra/panel/student/index.php on line 33
+[11-Jul-2015 02:58:59 America/New_York] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/bookfoxi/public_html/brinjal.me/malhotra/panel/student/index.php on line 33
+[11-Jul-2015 02:58:59 America/New_York] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bookfoxi/public_html/brinjal.me/malhotra/panel/student/index.php on line 33

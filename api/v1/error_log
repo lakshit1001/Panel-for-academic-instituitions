@@ -1,0 +1,32 @@
+[11-Jul-2015 02:48:38 America/New_York] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/bookfoxi/public_html/brinjal.me/malhotra/panel/student/api/v1/dbHelper.php on line 9
+[19-Sep-2015 18:14:15 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::selectnest() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 151
+[19-Sep-2015 18:14:42 America/New_York] PHP Fatal error:  Cannot redeclare dbHelper::select() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/dbHelper.php on line 44
+[19-Sep-2015 18:15:22 America/New_York] PHP Parse error:  syntax error, unexpected 'select' (T_STRING) in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/dbHelper.php on line 52
+[19-Sep-2015 18:46:38 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/dbHelper.php on line 54
+[19-Sep-2015 18:47:01 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/dbHelper.php on line 54
+[19-Sep-2015 18:47:06 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/dbHelper.php on line 54
+[19-Sep-2015 18:47:30 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/dbHelper.php on line 54
+[19-Sep-2015 18:48:07 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/dbHelper.php on line 54
+[19-Sep-2015 18:48:09 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/dbHelper.php on line 54
+[19-Sep-2015 19:05:51 America/New_York] PHP Parse error:  syntax error, unexpected '" having 1=1 "' (T_CONSTANT_ENCAPSED_STRING) in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/dbHelper.php on line 54
+[19-Sep-2015 19:12:17 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 139
+[19-Sep-2015 19:13:49 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 139
+[19-Sep-2015 19:14:13 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 139
+[19-Sep-2015 19:17:27 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 139
+[19-Sep-2015 19:18:41 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 139
+[19-Sep-2015 19:19:09 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 139
+[19-Sep-2015 19:20:49 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 139
+[19-Sep-2015 19:27:27 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 139
+[19-Sep-2015 19:27:44 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 139
+[19-Sep-2015 19:28:48 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 139
+[19-Sep-2015 19:29:29 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 139
+[19-Sep-2015 19:29:47 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 139
+[19-Sep-2015 19:30:06 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 139
+[19-Sep-2015 19:31:58 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 139
+[19-Sep-2015 19:32:38 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 139
+[19-Sep-2015 19:32:44 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 139
+[19-Sep-2015 21:27:42 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 97
+[20-Sep-2015 07:40:13 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 177
+[20-Sep-2015 07:40:14 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 97
+[20-Sep-2015 07:40:20 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 97
+[20-Sep-2015 07:40:54 America/New_York] PHP Fatal error:  Call to undefined method dbHelper::select2() in /home/bookfoxi/public_html/thapar/malhotra/panel/api/v1/index.php on line 97

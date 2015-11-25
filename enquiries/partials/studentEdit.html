@@ -1,0 +1,64 @@
+    <button type="button" class="close" ng-click="cancel();">
+        <i class="fa fa-times-circle-o" style="margin:10px;color:blue;"></i>
+    </button>
+    <div class="modal-header">
+        <h3 class="modal-title">Edit Enquiry [ID: {{student.id}}]</h3>
+    </div>
+    <div class="modal-body">
+        <form name="student_form" class="form-horizontal" role="form" novalidate>
+            <form-element label="Name" mod="student">
+                <input type="text" class="form-control" name="name" placeholder="Name" ng-model="student.name"  focus/>
+            </form-element>
+
+            <form-element label="Phone Number" mod="student">
+                <input type="text" class="form-control" name="number" placeholder="Phone Number" ng-model="student.number"  focus/>
+            </form-element>
+
+            <form-element label="E-Mail address" mod="student">
+                <input type="email" class="form-control" name="email" placeholder="E-Mail address" ng-model="student.email"  focus/>
+            </form-element>
+
+            <form-element label="Date" mod="student">
+                <input type="date" class="form-control" name="date" placeholder="Date" ng-model="student.date"  focus/>
+            </form-element>
+
+            <form-element label="Gender" mod="student">
+                <select name="gender" class="form-control" placeholder="Gender" ng-model="student.gender" >
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </form-element>
+	
+            <form-element label="Class" mod="student">
+                <select name="class" class="form-control" placeholder="Class" ng-model="student.class" >
+                    <option ng-repeat="class in classes | orderBy:'name'" value="{{class.name}}">{{class.name}}</option>
+                </select>
+
+            </form-element>
+
+            <form-element label="Message" mod="student">
+                <textarea type="text" class="form-control" name="message" placeholder="Message" ng-model="student.message"  focus>{{student.message}}</textarea>
+            </form-element>
+
+            <form-element label="Follow-up" mod="student">
+                <input type="date" class="form-control" name="followup" placeholder="Follow-Up Date" ng-model="student.followup"  focus/>
+            </form-element>
+
+
+            <div class="space"></div>
+            <div class="space-4"></div>
+            <div class="modal-footer">
+                <form-element label="">
+                    <div class="text-right">
+                        <a class="btn btn-sm" ng-click="cancel()"><i class="ace-icon fa fa-reply"></i>Cancel</a>
+                        <button ng-click="saveStudent(student);"
+                                ng-disabled="student_form.$invalid || enableUpdate"
+                                class="btn btn-sm btn-primary"
+                                type="submit">
+                            <i class="ace-icon fa fa-check"></i>{{buttonText}}
+                        </button>
+                    </div>
+                </form-element>
+            </div>
+        </form>
+    </div>
